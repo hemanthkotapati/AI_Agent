@@ -19,8 +19,8 @@ The **AI Agent** is an interactive web application that enables users to provide
 ### 2. Clone the Repository
 
 ```
-git clone 
-cd <repository-name>
+git clone https://github.com/hemanthkotapati/AI_Agent.git
+cd AI_Agent
 
 ```
 
@@ -57,8 +57,8 @@ streamlit run ai_agent.py
 
 ### Step 2: Define the Query
 
-* Input a prompt template like `Get the email address of {entity}`, where `{entity}` will be replaced by data from the selected column in your dataset.
-* The application also allows advanced query templates, like extracting multiple fields in a single query. Ex: `Get the email and address for {entity}`
+* Input a prompt template like `Who is the hero of {entity}`, where `{entity}` will be replaced by data from the selected column in your dataset.
+* The application also allows advanced query templates, like extracting multiple fields in a single query. Ex: `Who is the hero, heroine and director of {entity}`
 
 ### Step 3: Extract Data
 
