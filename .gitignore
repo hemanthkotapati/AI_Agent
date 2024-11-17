@@ -1,0 +1,14 @@
+# Ignore environment variables
+.env
+
+# Ignore Python cache files
+*.pyc
+__pycache__/
+
+# Ignore virtual environments
+Hemanth_venv/
+
+# Ignore credentials
+*.json
+
+.history
