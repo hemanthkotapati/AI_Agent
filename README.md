@@ -1,5 +1,5 @@
 # 
-AI AGENt
+### AI AGENT
 
 ## Project Description
 
@@ -92,8 +92,8 @@ Ensure the Google service account JSON file is accessible and contains the requi
 
 * **Dashboard/UI** : Streamlit
 * **Data Handling** : pandas for CSV files and Google Sheets API for Google Sheets Integration
-* **Search API** : SerpAPI
-* **LLM API** : Groq API
+* **Search API** : SerpAPI (with ratelimit set)
+* **LLM API** : Groq API  (with ratelimit set)
 * **Backend** : Python
 * **Agents** : LangChain
 
@@ -111,4 +111,8 @@ Robust error-handling mechanisms for failed API calls or unsuccessful LLM querie
 
 The option has has been provided in the UI but it is not functioning as expected.
 
+### RATE LIMIT
+Rate limit has been set for both Groq API and Serp API so that the application wont crash when API call frequency crosses the limit. 
+
 ### VIDEO LINK:
+https://drive.google.com/file/d/1dvSTwDK2hABpI4C_Zc2lYzI5FdsRSj4q/view?usp=sharing
