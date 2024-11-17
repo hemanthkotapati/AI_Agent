@@ -3,7 +3,7 @@
 
 ## Project Description
 
-The **AI Agent** is an interactive web application that enables users provide a CSV file or a Google Sheet link and select a column from the provided data and ask the agent a dynamic query about the slected column. The agent then performs web search based on the query and then returns the url's and the snippets of information found on the web. The agent leverages AI models (LangChain, Groq API) and uses this data to  produce precise, actionable data based on the user query. The extracted data is displayed in the dashboard, and it can be downloaded as a CSV file.
+The **AI Agent** is an interactive web application that enables users to provide a CSV file or a Google Sheet link and select a column from the provided data and ask the agent a dynamic query about the slected column. The agent then performs web search based on the query and then returns the url's and the snippets of information found on the web. The agent leverages AI models (LangChain, Groq API) and uses this data to  produce precise, actionable data based on the user query. The extracted data is displayed in the dashboard, and it can be downloaded as a CSV file.
 
 ## Setup Instructions
 
@@ -19,7 +19,7 @@ The **AI Agent** is an interactive web application that enables users provide a 
 ### 2. Clone the Repository
 
 ```
-git clone <repository-url>
+git clone 
 cd <repository-name>
 
 ```
